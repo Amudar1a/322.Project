@@ -1,0 +1,31 @@
+body{
+    font-family: "Consolas";
+    color: #008091;
+}
+
+h2{
+    font-family: "Consolas";
+    font-size: 32pt;
+    color: #0b2e7a;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #0b2e7a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.logout {
+    text-decoration: none;
+    color: red !important;
+}   
